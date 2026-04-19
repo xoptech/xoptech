@@ -1,10 +1,10 @@
 ```bash
 kazikz@kazikz:~$ whoami
  _               _ _             name: kazikz
-| | ____ _ _____(_) | __ ____    views: 0
+| | ____ _ _____(_) | __ ____    visitors: 0
 | |/ / _` |_  / | | |/ /|_  /    langs: check my repos
 |   < (_| |/ /| | |   <  / /     status: out exploring
-|_|\_\__,_/___|_|_|_|\_\/___|    
+|_|\_\__,_/___|_|_|_|\_\/___|
 ```
 
 ```bash
