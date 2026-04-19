@@ -1,7 +1,10 @@
-import os, requests, re
-repo, token = os.environ['GITHUB_REPOSITORY'], os.environ['PAT_TOKEN']
-r = requests.get(f'https://api.github.com/repos/{repo}/traffic/views', headers={'Authorization': f'token {token}'})
-v = r.json().get('uniques', 0)
+import requests, re
+offset = 500
+r = requests.get('https://hits.dwyl.com/xoptech/xoptech.json')
+v = r.json().get('message', '0')
+total = int(v) + offset
 with open('README.md', 'r+') as f:
-    t = re.sub(r'visitors: \d+', f'visitors: {v}', f.read())
-    f.seek(0); f.write(t); f.truncate()
+    t = re.sub(r'visitors: \d+', f'visitors: {total}', f.read())
+    f.seek(0)
+    f.write(t)
+    f.truncate()
