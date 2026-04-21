@@ -1,8 +1,8 @@
 ```bash
 kazikz@kazikz:~$ whoami
- _               _ _             name: kazikz
-| | ____ _ _____(_) | __ ____    role: full-stack student
-| |/ / _` |_  / | | |/ /|_  /    visitors: 509
+								name: kazikz
+| | ____ _ _____(_) | __ ____	role: full-stack developer
+| |/ / _` |_  / | | |/ /|_  /	visitors: 9
 |   < (_| |/ /| | |   <  / /
 |_|\_\__,_/___|_|_|_|\_\/___|
 ```
@@ -10,4 +10,25 @@ kazikz@kazikz:~$ whoami
 ```bash
 kazikz@kazikz:~$ cat philosophy.txt
 'efficiency through avoidance'
+```
+
+```bash
+kazikz@kazikz:~$ cat techstack.json
+{
+	'frontend': [
+		'tailwindcss'
+	],
+	'backend': [
+		'python',
+		'java',
+		'php'
+	],
+	'frameworks': [
+		'laravel'
+	],
+	'databases': [
+		'mysql',
+		'sqlite'
+	]
+}
 ```
