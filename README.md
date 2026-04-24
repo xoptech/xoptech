@@ -1,19 +1,14 @@
-```bash
-kazikz@kazikz:~$ whoami
+<pre><code>kazikz@kazikz:~$ whoami
 								name: kazikz
 | | ____ _ _____(_) | __ ____	role: aspiring full-stack developer
-| |/ / _` |_  / | | |/ /|_  /	visitors: 11
+| |/ / _` |_  / | | |/ /|_  /	visitors: <img src="https://komarev.com/ghpvc/?username=xoptech&style=flat-square&label=&color=000000" valign="middle" alt="Profile Views" />
 |   < (_| |/ /| | |   <  / /
-|_|\_\__,_/___|_|_|_|\_\/___|
-```
+|_|\_\__,_/___|_|_|_|\_\/___|</code></pre>
 
-```bash
-kazikz@kazikz:~$ cat philosophy.txt
-'efficiency through avoidance'
-```
+<pre><code>kazikz@kazikz:~$ cat philosophy.txt
+'efficiency through avoidance'</code></pre>
 
-```bash
-kazikz@kazikz:~$ cat techstack.json
+<pre><code>kazikz@kazikz:~$ cat techstack.json
 {
 	'frontend': [
 		'tailwindcss'
@@ -30,5 +25,4 @@ kazikz@kazikz:~$ cat techstack.json
 		'mysql',
 		'sqlite'
 	]
-}
-```
+}</code></pre>
